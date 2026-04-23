@@ -1,30 +1,30 @@
-# 📊 Employee Attrition & Financial Impact Analysis
+# Employee Attrition & Financial Impact Analysis
 
-## 📌 Overview
+## Overview
 This project uses machine learning to analyze employee attrition and estimate its financial impact on organizations. It combines classification and regression models to predict employee turnover and quantify potential losses.
 
-## 🎯 Objectives
+## Objectives
 - Predict employee attrition (Classification)
 - Estimate future salaries of likely-to-stay employees (Regression)
 - Calculate expected financial loss due to attrition
 
-## 📂 Dataset
+## Dataset
 - IBM HR Analytics Attrition Dataset (Kaggle)
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Matplotlib
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 - Label Encoding for categorical variables
 - Feature Scaling using StandardScaler
 - Simulated future salary based on performance ratings
 
-## 🤖 Models Used
+## Models Used
 
-### 🔹 Classification (Attrition Prediction)
+### Classification (Attrition Prediction)
 - Logistic Regression (Best Model)
 - Decision Tree
 - Support Vector Classifier (SVC)
@@ -34,7 +34,7 @@ Performance:
 - AUC-ROC: 0.796
 - Recall: 0.766
 
-### 🔹 Regression (Future Salary Prediction)
+### Regression (Future Salary Prediction)
 - Random Forest Regressor (Best Model)
 - Ridge Regression
 - Lasso Regression
@@ -44,22 +44,22 @@ Performance (Random Forest):
 - R² Score: 0.9999
 - RMSE: 30.54
 
-## 💰 Financial Impact Calculation
+## Financial Impact Calculation
 
 Expected Loss per Employee:
 Expected Loss = P(Attrition) × Predicted Future Salary
 
 
-## 📈 Key Insights
+## Key Insights
 - Logistic Regression provides interpretable attrition predictions
 - Random Forest captures complex salary patterns effectively
 - High recall ensures most at-risk employees are identified
 - Quantifies business impact of employee turnover
 
-## 🚀 Future Improvements
+## Future Improvements
 - Add more features (bonuses, performance history)
 - Improve interpretability using SHAP
 - Use ensemble stacking for better accuracy
 
-## 🧠 Conclusion
+## Conclusion
 This project bridges data science and HR analytics by enabling organizations to identify attrition risks and estimate their financial impact, supporting smarter retention strategies.
